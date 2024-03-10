@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modal-wrapper{
+    background-color: rgb(38 38 38 /0.7);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.modal{
+    background-color: white;
+    width: 66%;
+    height: auto;
+}
+
+.modal-header{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
+.modal-header button{
+    position: absolute;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    left: 2.5rem;
+}
+
+.modal-content {
+    width: 100%;
+    padding: 1.5rem
+
+}
+
+.modal-content div{
+    margin-bottom: 1rem;
+}
+
+.w-full{
+    width: 100%;
+}
+
+
+.welcom-back{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.login-to-account{
+    color: rgb(115 115 115)
+}
+
+.modal-content input[type='text']{
+    border-color: rgb(212 212 212);
+    padding: 1rem;
+}
+
+.modal-buttons {
+    padding: 1.5rem
+}
+
+.modal-buttons button{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(244 63 94);
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.modal-buttons button:hover{
+    opacity: 70%;
+}
